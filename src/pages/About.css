@@ -1,0 +1,29 @@
+#about-body {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+#about-info {
+    color: white;
+    font-size: x-large; /* Adjusted font size proportionally */
+    position: absolute;
+    left: 10%; /* Center horizontally */
+    bottom: 25%; /* Adjusted from padding-top to top */
+    transform: translate(-1%, 5%); /* Adjusted positioning */
+}
+
+#person-hello-img {
+    position: absolute;
+    left: 6%; /* Adjusted padding-right to left */
+    top: 15%; /* Adjusted padding-top */
+    max-width: 20%; /* Adjusted proportionally */
+}
+
+#about-footer-note-1 {
+    color: white;
+    position: absolute;
+    left: 1%; /* Adjusted padding-right to right */
+    bottom: 1%; /* Adjusted padding-top to bottom */
+    font-size: medium; /* Adjusted font size proportionally */
+}

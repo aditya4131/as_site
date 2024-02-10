@@ -1,0 +1,78 @@
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styles for navigation */
+#nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  position: relative;
+  top: 10px;
+  left: 0;
+  z-index: 1; /* Ensure they are above other elements */
+}
+
+#home-button-nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  position: fixed;
+  top: 10px;
+  left: 50px;
+  z-index: 2; /* Ensure they are above other elements */
+}
+
+/* Style for navigation links */
+#nav li a,
+#home-button-nav li a {
+  display: block;
+  padding: 1% 2%; /* Adjusted padding proportionally */
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-right: 1px solid transparent;
+  position: relative; /* Ensure proper positioning */
+  float: right;
+  font-size: x-large;
+}
+
+/* Hover effect for navigation links */
+#nav li a:hover,
+#home-button-nav li a:hover {
+  color: #6258CF;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Adjust padding for smaller screens */
+  #nav li a,
+  #home-button-nav li a {
+    padding: 2% 4%;
+  }
+}
+
+/* Style for home button navigation */
+#home-button-nav {
+  float: left; /* Move to the left side */
+}
+
+/* Adjust list items inside home-button-nav */
+#home-button-nav li {
+  float: left; /* Align items horizontally */
+}
+
+#home-button-nav li a {
+  font-size: 25px;
+}

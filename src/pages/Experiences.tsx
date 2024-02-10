@@ -14,7 +14,7 @@ function Experiences() {
         <div className="post-content">
           <h3 id="undergraduate-researcher-lsu-mobile-device-security-lab">
             Undergraduate Researcher,{" "}
-            <a href="https://csc.lsu.edu/~chenwang/" target="_blank">
+            <a href="https://csc.lsu.edu/~chenwang/" target="_blank" rel="noreferrer">
               LSU Mobile Device Security Lab
             </a>
           </h3>
@@ -41,7 +41,7 @@ function Experiences() {
 
           <h3 id="software-engineer-intern-chevron">
             Software Engineer Intern,{" "}
-            <a href="https://www.Chevron.com" target="_blank">
+            <a href="https://www.Chevron.com" target="_blank" rel="noreferrer">
               Chevron
             </a>
           </h3>
@@ -84,7 +84,7 @@ function Experiences() {
 
           <h3 id="software-engineer-intern-chevron-1">
             Software Engineer Intern,{" "}
-            <a href="https://www.Chevron.com" target="_blank">
+            <a href="https://www.Chevron.com" target="_blank" rel="noreferrer">
               Chevron
             </a>
           </h3>
@@ -133,6 +133,7 @@ function Experiences() {
                   <a
                     href="https://learn.microsoft.com/en-us/users/adityasrivastava-8756/credentials/4f4f740650d0295f"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Microsoft Azure Fundamentals (AZ-900)
                   </a>
@@ -141,6 +142,7 @@ function Experiences() {
                   <a
                     href="https://learn.microsoft.com/en-us/users/adityasrivastava-8756/credentials/e6730455efc26e16"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Microsoft Azure Administrator (AZ-104)
                   </a>
@@ -149,6 +151,7 @@ function Experiences() {
                   <a
                     href="https://www.credential.net/15ce8099-7e83-47f6-8c85-e47f1b965333?key=911e28d652066c1b6a9c298d9020eebfed64b2b65d3c657536e054022635f296&amp;trk=public_profile_see-credential"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Google Cloud Certified: Cloud Digital Leader
                   </a>
@@ -157,6 +160,7 @@ function Experiences() {
                   <a
                     href="https://www.credly.com/badges/b0c96cf2-8059-4382-856e-f5211b13b0fc/public_url"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     AWS Certified Cloud Practitioner (CLF-C02)
                   </a>

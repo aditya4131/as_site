@@ -1,10 +1,6 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {Outlet, Link} from 'react-router-dom';
 import "./NavigationBar.css";
-import HomePage from "../pages/HomePage";
-import About from "../pages/About";
-import Experiences from "../pages/Experiences";
 
 function NavigationBar() {
   return (

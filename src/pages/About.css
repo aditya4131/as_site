@@ -37,7 +37,7 @@
     #about-info {
         font-size: large; /* Adjusted font size for smaller screens */
         left: 5%; /* Adjusted left positioning for smaller screens */
-        bottom: 20%; /* Adjusted top positioning for smaller screens */
+        bottom: 12%; /* Adjusted top positioning for smaller screens */
         transform: translate(-1%, 3%); /* Adjusted positioning for smaller screens */
     }
 

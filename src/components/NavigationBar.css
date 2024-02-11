@@ -34,7 +34,7 @@
   border-top: 1px solid transparent;
   position: fixed;
   top: 10px;
-  left: 50px;
+  left: 0;
   z-index: 2; /* Ensure they are above other elements */
 }
 
@@ -48,7 +48,6 @@
   color: white;
   border-right: 1px solid transparent;
   position: relative; /* Ensure proper positioning */
-  float: right;
   font-size: x-large;
 }
 
@@ -64,19 +63,18 @@
   #nav li a,
   #home-button-nav li a {
     padding: 2% 4%;
+    font-size: medium; /* Adjust font size for smaller screens */
   }
-}
 
-/* Style for home button navigation */
-#home-button-nav {
-  float: left; /* Move to the left side */
-}
+  #nav li a {
+    padding: 4% 2%;
+    float:inline-end;
+  }
 
-/* Adjust list items inside home-button-nav */
-#home-button-nav li {
-  float: left; /* Align items horizontally */
-}
-
-#home-button-nav li a {
-  font-size: 25px;
+  /* Adjust positioning for smaller screens */
+  #home-button-nav {
+    top: 0;
+    left: 0;
+    float: left;
+  }
 }

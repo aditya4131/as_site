@@ -7,9 +7,6 @@ function Experiences() {
     <body id="experiences-body">
       <div className="app">
         <NavigationBar />
-        <header className="post-header">
-          <h1 className="post-title">Experiences</h1>
-        </header>
 
         <div className="post-content">
           <h3 id="undergraduate-researcher-lsu-mobile-device-security-lab">

@@ -24,67 +24,54 @@
   z-index: 1; /* Ensure they are above other elements */
 }
 
-#home-button-nav {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background-color: transparent;
-  border-bottom: 1px solid transparent;
-  border-top: 1px solid transparent;
-  position: fixed;
-  top: 10px;
-  left: 0;
-  z-index: 2; /* Ensure they are above other elements */
+
+#home-button {
+  float: left;
+  padding: 1% 2%;
 }
 
 /* Style for navigation links */
-#nav li a,
-#home-button-nav li a {
+#nav li button {
   display: block;
+  background: transparent;
+  border: transparent;
   padding: 1% 2%; /* Adjusted padding proportionally */
   text-decoration: none;
   font-weight: bold;
   color: white;
   border-right: 1px solid transparent;
   position: relative; /* Ensure proper positioning */
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 #nav li a {
   float: right;
-  padding: 2.9% 2%;
-}
-
-#home-button-nav li a {
-  padding: 0.5% 2%;
-  font-size: 35px;
+  padding: 1% 2%;
 }
 
 /* Hover effect for navigation links */
-#nav li a:hover,
-#home-button-nav li a:hover {
+#nav li a:hover {
   color: #6258CF;
 }
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   /* Adjust padding for smaller screens */
-  #nav li a,
-  #home-button-nav li a {
+  #nav li button {
     padding: 2% 4%;
     font-size: medium; /* Adjust font size for smaller screens */
   }
 
   #nav li a {
     padding: 4% 2%;
-    float:inline-end;
+    float:right;
+  }
+
+  #home-button {
+    padding: 4% 2%;
+    float: left;
   }
 
   /* Adjust positioning for smaller screens */
-  #home-button-nav {
-    top: 0;
-    left: 0;
-    float: left;
-  }
+
 }

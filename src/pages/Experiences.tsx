@@ -9,8 +9,7 @@ function Experiences() {
         <NavigationBar />
 
         <div className="post-content">
-          <h3 id="undergraduate-researcher-lsu-mobile-device-security-lab">
-            Undergraduate Researcher,{" "}
+          <h3 id="undergraduate-researcher-lsu-mobile-device-security-lab">Undergraduate Researcher,{" "}
             <a href="https://csc.lsu.edu/~chenwang/" target="_blank" rel="noreferrer">
               LSU Mobile Device Security Lab
             </a>

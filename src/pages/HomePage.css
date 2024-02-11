@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'KumbhSans';
+    src: local('KumbhSans'), url(/public/KumbhSans-Black.ttf) format('ttf');
+}
+
 #homepage-body {
     background-color: black;
     width: 100%;
@@ -13,6 +18,27 @@
     transform: translateX(-20%); /* Adjusted positioning */
     transform: translateY(70%);
 }
+
+#homepage-info {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 3.5vw;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 
 #person-waving-img {
     position: absolute;

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'KumbhSans';
+  src: local('KumbhSans'), url(/public/KumbhSans-Black.ttf) format('ttf');
+}
+
 #experiences-body {
   background-color: black;
   width: 100%;
@@ -55,4 +60,20 @@ h3 {
   left: 1%; /* Adjusted padding-right to right */
   bottom: 1%; /* Adjusted padding-top to bottom */
   font-size: medium;
+}
+
+/* Media Query for Phones */
+@media only screen and (max-width: 600px) {
+  #experiences-button-container button {
+    transform: none; /* Reset the transform for smaller screens */
+    margin: 0 auto; /* Center the button horizontally */
+    transform: translateY(0); /* Reset transform */
+  }
+
+  .post-content {
+    width: 100%; /* Adjust width for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+    font-size: medium; /* Adjust font size for smaller screens */
+    line-height: 150%; /* Adjust line height for smaller screens */
+  }
 }

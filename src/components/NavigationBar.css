@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'KumbhSans-Bold';
+  src: local('KumbhSans-Bold'), url(/public/KumbhSans-Bold.ttf) format('ttf');
+}
 /* Reset margins and paddings */
 * {
   margin: 0;

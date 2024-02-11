@@ -51,6 +51,16 @@
   font-size: x-large;
 }
 
+#nav li a {
+  float: right;
+  padding: 2.9% 2%;
+}
+
+#home-button-nav li a {
+  padding: 0.5% 2%;
+  font-size: 35px;
+}
+
 /* Hover effect for navigation links */
 #nav li a:hover,
 #home-button-nav li a:hover {
